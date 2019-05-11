@@ -11,11 +11,11 @@
 		}
 	],
 	"require": {
-		"sunhater/kcfinder": "*",
+		"execut/kcfinder": "*",
 		"yiisoft/yii2-bootstrap": "*",
 		"yiisoft/yii2-jui": "*",
-		"iutbay/yii2-fontawesome" : "@dev",
-		"2amigos/yii2-ckeditor-widget": "@dev"
+		"iutbay/yii2-fontawesome" : "*",
+		"2amigos/yii2-ckeditor-widget": "*"
 	},
 	"autoload": {
 		"psr-4": {"iutbay\\yii2kcfinder\\": ""}
