@@ -3,18 +3,9 @@ KCFinder for Yii2
 
 [KCFinder](http://kcfinder.sunhater.com/) for Yii2.
 
-WARNING : I don't have time actually to maintain this repository, but take a [look here](https://github.com/iutbay/mm) (WIP)...
-
 Installation
 ------------
 The preferred way to install this helper is through [composer](http://getcomposer.org/download/).
-
-Since kcfinder package do not have stable release on packagist, you should use these settings in your `composer.json` file :
-
-```json
-"minimum-stability": "dev",
-"prefer-stable": true,
-```
 
 After, either run
 
