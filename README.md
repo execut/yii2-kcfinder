@@ -37,7 +37,7 @@ With model and ActiveForm :
 ```php
 use iutbay\yii2kcfinder\KCFinderInputWidget;
 
-echo $form->field($model, 'images')->widget(KCFinderInputWidget::className(), [
+echo $form->field($model, 'images')->widget(KCFinderInputWidget::class, [
 	'multiple' => true,
 ]);
 ```
