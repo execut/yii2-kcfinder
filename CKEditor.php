@@ -31,7 +31,7 @@ class CKEditor extends \dosamigos\ckeditor\CKEditor
      */
     protected function registerKCFinder()
     {
-        $register = \iutbay\yii2kcfinder\KCFinderAsset::register($this->view);
+        $register = \execut\yii2kcfinder\KCFinderAsset::register($this->view);
         $kcfinderUrl = $register->baseUrl;
 
         $browseOptions = [
